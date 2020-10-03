@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <section id="overlay">
+      <img src="burger-logo.png" alt="Delicious Burger" id="logo">
+      <hr color="pink" size="2">
+
+      <form action="./submit.html" method="GET">
+        <h1>Create a burger!</h1>
+        
+        <div id="protein">
+          <label for="protein_type">What type of protein would you like?:</label> <br> 
+          <select name="protein_type" id="protein_type" value="chicken">
+            <option value="chicken">chicken</option>
+            <option value="beef">beef</option>
+            <option value="veggie">veggie</option>
+          </select>
+        </div>
+        <hr color="pink" size="2">
+        
+        <div id="patties"> 
+          <label for="patties_input">How many patties would you like?</label><br>
+          <input 
+            type="number" 
+            name="patties_input" 
+            id="patties_input" 
+            step="1"
+            value="1" />
+        </div>
+        <hr color="pink" size="2">
+        
+        <div id="cook"> 
+          <p><label for="cook_range">How do you want your patty cooked?</label> <br>  
+          Rare
+          <input 
+            type="range" 
+            name="cook_range" 
+            id="cook_range" 
+            step="1"
+            min="1"
+            max="3"
+            value="1" />
+            Well-done</p>
+        </div> 
+        <hr color="pink" size="2">
+        
+        <div id="toppings">
+          <label for="lettuce_input">What topping would you like?</label> <br>
+          <input 
+            type="checkbox" 
+            name="lettuce_input[]" 
+            id="lettuce_input"
+            value="lettuce" />
+          <label for="lettuce_input">Lettuce</label>
+          
+          <input 
+            type="checkbox" 
+            name="lettuce_input[]" 
+            id="tomato_input"
+            value="tomato" />
+          <label for="tomato_input">Tomato</label>
+
+          <input 
+            type="checkbox" 
+            name="lettuce_input[]" 
+            id="Onion_input"
+            value="onion" />
+          <label for="Onion_input">Onion</label>
+        </div>
+        <hr color="pink" size="2">
+               
+        <div id="cheese">
+          <label for="cheese">Would like to add cheese?</label> <br>
+          <input 
+          type="radio" 
+          name="cheese" 
+          id="Yes" 
+          value="Yes" />
+          <label for="Yes">Yes</label>
+          
+          <input
+          type="radio" 
+          name="cheese" 
+          id="No" 
+          value="No" />
+          <label for="No">No</label>
+        </div> 
+        <hr color="pink" size="2">  
+        
+        <div id="bun">
+          <label for="select box">What type of bun would you like?</label><br>
+          <select name="bun_type" id="bun_type" value="sesame">
+            <option value="sesame">sesame</option>
+            <option value="olive">olive</option>
+            <option value="potato">potato</option>
+          </select>
+        </div>
+        <hr color="pink" size="2">
+        
+         <div id="sauce">
+            <label for="sauce_input">What kind of sauce would you like? </label>
+            <select name="sauce_input" id="sauce_input" value="pepper">
+              <option value="chilli">chilli</option>
+              <option value="tomato">tomato</option>
+              <option value="pepper">pepper</option>
+            </select>
+        </div>
+        <hr color="pink" size="2">
+        
+        <div id="anything">
+          <label for="anything_input">Anything else you want to add? </label><br>
+          <textarea
+            name="anything_input"
+            id="anything_input" 
+            rows="5"
+            cols="40"
+            placeholder="anything else you want?"></textarea>
+      </div>
+
+        <input type="submit" value="submit">
+      
+    </section>
+  </body>
+</html>

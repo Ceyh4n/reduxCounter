@@ -1,0 +1,116 @@
+/* Universal Styles */
+
+html{
+font-size: 18px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navigation */
+
+nav {
+  text-align: center;
+}
+
+nav img {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+
+nav span {
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 10px, 0px, 10px, 0px;
+}
+
+nav a {
+  color: #152e0e;
+}
+
+/* Content Container */
+
+.content {
+  width: 100%;
+}
+
+/* Content Header */
+
+.header {
+  background-image: url("./main_pizza.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.header h1 {
+  background-color: #152e0e;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+  width: 68%;
+}
+
+/* Content Body */
+
+.content .body {
+  width: 90%;
+}
+
+.body p {
+  color: rgb(19, 243, 30);
+  font-weight: 100;
+  line-height: 34px;
+  width: 90%;
+  margin-top: 18px;
+}
+
+/* Content Button */
+
+.button {
+  border-radius: 4px;
+  color: #152e0e;
+  display: block;
+  font-weight: 700;
+}
+
+.button:hover {
+}
+
+/* Content Nutrition */
+
+ul.nutrition {
+
+}
+
+ul.nutrition li {
+  display: inline-block;
+  list-style: none;
+  
+}
+
+.nutrition .category {
+  color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+  display: block;
+}
+
+.nutrition .value {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+
+

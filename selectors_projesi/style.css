@@ -1,0 +1,58 @@
+
+.header img{
+display: block;
+margin: 0 auto;
+border-radius: 50px; 
+}
+
+.header {
+    background-color: royalblue;
+    text-align: center;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+    padding: 10px;
+}
+
+.about-me {
+    font-size: 20px;
+    opacity: 70%;
+}
+
+.title {
+    font-weight: bold;
+}
+
+h1 {
+    color: azure
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 75%;
+    background-image: url(./background.png);
+}
+
+.center-align {
+    list-style-position: inside;
+}
+
+.sm {
+    border-radius: 50%;
+}
+
+.box-one {
+    background-color: khaki;
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    padding: 10px;
+}
+
+#line {
+    width: 10%;
+}
+
+
+

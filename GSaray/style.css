@@ -1,0 +1,61 @@
+header{
+    background-color: linear-gradient(to right, #ff3300 46%, #ffff00 60%);
+    
+}
+
+header nav * {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+header a {
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+
+header ul {
+    font-size: 1.5em;
+    float: right;
+   
+}
+
+header hr {
+    display: block;
+}
+
+.red {
+    border: 2px red solid;
+    display: block;
+}
+
+.yellow {
+    border: 2px yellow solid;
+    display: block;
+}
+
+header img {
+    width: 100px;
+    margin: 10px;
+    float: left;
+}
+
+ header h1 {
+    /*display: block;*/
+    text-align: center;
+    margin: 50px auto;
+    
+}
+
+.motto {
+    text-align: center; 
+}
+
+body {
+    font-family: kufam;
+    word-spacing: 1px;
+}
+
+header {
+    text-align: center;
+}

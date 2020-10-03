@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>ANKET ÇALIŞMASI</title>
+    <div>
+     <meta charset="UTF-8">
+     <meta name="description" content="Web Developer Anketi">
+     <meta name="keywords" content="HTML, CSS, JavaScript, Anket, Developer, ">
+     <meta name="author" content="Mustafa Aksu">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </div>
+  </head>
+  <body  style="background-color: hsla(22, 70%, 25%, 0.3);
+                width: 1000px;
+                position: relative;
+                margin: auto;
+                padding: 20px;">
+    <div>
+    <div align="center"><h1>ANKET ÇALIŞMASI</h1></div>
+     <form action="https://www.google.com">
+        <div id="kisiselBilgiler"><fieldset><legend>Kişisel Bilgiler</legend>
+        <table width="%90">
+         <tr>
+          <td><label for="Adı">Ad:</label></td>
+          <td><input type="text" name="Adı" id="Adı" reguired></td>  
+          </tr>
+          <tr>
+          <td><label for="Soyadı">Soyad:</label></td>
+          <td><input type="text" name="Soyadı" id="Soyadı" reguired></td>  
+          </tr>
+          <tr>
+          <td><label for="mail">Cinsiyet:</label></td>
+          <td><input type="radio" name="gender" id="mail" reguired>Erkek &emsp;
+          <input type="radio" name="gender" id="femail" reguired>Bayan</td>
+          <tr>
+          <td><label for="email">Email Adres:</label></td>
+          <td><input type="email" name="email_address" id="email" reguired></td>  
+          </tr>
+          <tr>
+          <td><label for="age">Yaşınız:</label></td>
+          <td><select name="age" id="age">
+                <option value="18" selected>18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                <option value="32">32</option>
+                <option value="33">33</option>
+                <option value="34">34</option>
+                <option value="35">35</option>
+                <option value="36">36</option>
+                <option value="37">37</option>
+                <option value="38">38</option>
+                <option value="39">39</option>
+                <option value="40">40</option>
+                <option value="41">41</option>
+                <option value="42">42</option>
+                <option value="43">43</option>
+                <option value="44">44</option>
+                <option value="45">45</option>
+                <option value="46">46</option>
+                <option value="47">47</option>
+                <option value="48">48</option>
+                <option value="49">49</option>
+                <option value="50">50</option>
+                <option value="51">51</option>
+                <option value="52">52</option>
+                <option value="53">53</option>
+                <option value="54">54</option>
+                <option value="55">55</option>
+              </select></td>  
+          </tr>
+            <tr>
+            <td><label for="calismaSuresi">Çalışma Süreniz:</label></td>
+            <td><input type="range" id="calismaSuresi" name="CalismaSuresi" step="1" min="5" max="40"></td>
+          </tr>
+           <tr>
+          <td><label for="yasadiginizIl">Yaşadığınız Şehir:</label></td>
+          <td><input type="text" list="yasadiginiz_il" id="yasadiginizIl" name="sehirler">
+                <datalist  id="yasadiginiz_il">
+                      <option value="1">Adana</option>
+                      <option value="2">Adıyaman</option>
+                      <option value="3">Afyonkarahisar</option>
+                      <option value="4">Ağrı</option>
+                      <option value="68">Aksaray</option>
+                      <option value="5">Amasya</option>
+                      <option value="6">Ankara</option>
+                      <option value="7">Antalya</option>
+                      <option value="75">Ardahan</option>
+                      <option value="8">Artvin</option>
+                      <option value="9">Aydın</option>
+                      <option value="10">Balıkesir</option>
+                      <option value="74">Bartın</option>
+                      <option value="72">Batman</option>
+                      <option value="69">Bayburt</option>
+                      <option value="11">Bilecik</option>
+                      <option value="12">Bingöl</option>
+                      <option value="13">Bitlis</option>
+                      <option value="14">Bolu</option>
+                      <option value="15">Burdur</option>
+                      <option value="16">Bursa</option>
+                      <option value="17">Çanakkale</option>
+                      <option value="18">Çankırı</option>
+                      <option value="19">Çorum</option>
+                      <option value="20">Denizli</option>
+                      <option value="21">Diyarbakır</option>
+                      <option value="81">Düzce</option>
+                      <option value="22">Edirne</option>
+                      <option value="23">Elazığ</option>
+                      <option value="24">Erzincan</option>
+                      <option value="25">Erzurum</option>
+                      <option value="26">Eskişehir</option>
+                      <option value="27">Gaziantep</option>
+                      <option value="28">Giresun</option>
+                      <option value="29">Gümüşhane</option>
+                      <option value="30">Hakkâri</option>
+                      <option value="31">Hatay</option>
+                      <option value="76">Iğdır</option>
+                      <option value="32">Isparta</option>
+                      <option value="34">İstanbul</option>
+                      <option value="35">İzmir</option>
+                      <option value="46">Kahramanmaraş</option>
+                      <option value="78">Karabük</option>
+                      <option value="70">Karaman</option>
+                      <option value="36">Kars</option>
+                      <option value="37">Kastamonu</option>
+                      <option value="38">Kayseri</option>
+                      <option value="71">Kırıkkale</option>
+                      <option value="39">Kırklareli</option>
+                      <option value="40">Kırşehir</option>
+                      <option value="79">Kilis</option>
+                      <option value="41">Kocaeli</option>
+                      <option value="42">Konya</option>
+                      <option value="43">Kütahya</option>
+                      <option value="44">Malatya</option>
+                      <option value="45">Manisa</option>
+                      <option value="47">Mardin</option>
+                      <option value="33">Mersin</option>
+                      <option value="48">Muğla</option>
+                      <option value="49">Muş</option>
+                      <option value="50">Nevşehir</option>
+                      <option value="51">Niğde</option>
+                      <option value="52">Ordu</option>
+                      <option value="80">Osmaniye</option>
+                      <option value="53">Rize</option>
+                      <option value="54">Sakarya</option>
+                      <option value="55">Samsun</option>
+                      <option value="56">Siirt</option>
+                      <option value="57">Sinop</option>
+                      <option value="58">Sivas</option>
+                      <option value="63">Şanlıurfa</option>
+                      <option value="73">Şırnak</option>
+                      <option value="59">Tekirdağ</option>
+                      <option value="60">Tokat</option>
+                      <option value="61">Trabzon</option>
+                      <option value="62">Tunceli</option>
+                      <option value="64">Uşak</option>
+                      <option value="65">Van</option>
+                      <option value="77">Yalova</option>
+                      <option value="66">Yozgat</option>
+                      <option value="67">Zonguldak</option>
+                </datalist></td>  
+          </tr>
+        </table>
+        </fieldset></div> <br><br>    
+        <div><fieldset><legend>Hangi programlama dillerine aşinasınız?</legend>
+          <div>
+            <input type="checkbox" name="html" id="java">&nbsp; JAVASCRIPT                  &emsp;&emsp;&emsp;&emsp;
+            <input type="checkbox" name="html" id="java">&nbsp; PYTHON
+            &emsp;&emsp;&emsp;&emsp;
+            <input type="checkbox" name="html" id="java">&nbsp; JAVA
+            &emsp;&emsp;&emsp;&emsp;
+            <input type="checkbox" name="html" id="java">&nbsp; HTML
+            &emsp;&emsp;&emsp;&emsp;&nbsp
+            <input type="checkbox" name="html" id="java">&nbsp; RUBY<br><br>
+            
+            <input type="checkbox" name="html" id="java">&nbsp; C
+  &emsp;&emsp;&emsp;&emsp;&emsp;
+   &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="html" id="java">&nbsp; MATLAB
+&emsp;&emsp;&emsp;&emsp;
+            <input type="checkbox" name="html" id="java">&nbsp; PHP
+            &nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;
+            <input type="checkbox" name="html" id="java">&nbsp; VİSUAL BASİC
+             &nbsp;
+            <input type="checkbox" name="html" id="java">&nbsp; R
+            <p>Programlama dilleri hakkında daha fazla bilgi için <a href="https://khosann.com/kodlama-icin-en-gerekli-16-programlama-dili/" target="_blank">tıklayınız.</a> </p>
+          </div>
+        </fieldset></div> <br><br> 
+        <div>
+          <div>
+            <fieldset><legend>Programlama Dillerindeki Seviyenizi Puanlar mısınız?:</legend><br>
+              <table  border="1" width="50%">
+              <tr>
+                    <th><p>Javascript</p></th> 
+                    <td><input type="radio" name="Javascript" id="derece" value="1">&nbsp;1</td>
+                    <td><input type="radio" name="Javascript" id="derece" value="2">&nbsp;2</td>
+                    <td><input type="radio" name="Javascript" id="derece" value="3">&nbsp;3</td>
+                    <td><input type="radio" name="Javascript" id="derece" value="4">&nbsp;4</td>
+                    <td><input type="radio" name="Javascript" id="derece" value="5">&nbsp;5</td>
+                    <td><input type="radio" name="Javascript" id="derece" value="6">&nbsp;6</td>
+                    <td><input type="radio" name="Javascript" id="derece" value="7">&nbsp;7</td>
+                    <td><input type="radio" name="Javascript" id="derece" value="8">&nbsp;8</td>
+                    <td><input type="radio" name="Javascript" id="derece" value="9">&nbsp;9</td>
+                    <td><input type="radio" name="Javascript" id="derece" value="10">&nbsp;10</td
+              </tr>
+              <tr>
+                    <th><p>Python</p></th> 
+                    <td><input type="radio" name="Python" id="derece" value="1">&nbsp;1</td>
+                    <td><input type="radio" name="Python" id="derece" value="2">&nbsp;2</td>
+                    <td><input type="radio" name="Python" id="derece" value="3">&nbsp;3</td>
+                    <td><input type="radio" name="Python" id="derece" value="4">&nbsp;4</td>
+                    <td><input type="radio" name="Python" id="derece" value="5">&nbsp;5</td>
+                    <td><input type="radio" name="Python" id="derece" value="6">&nbsp;6</td>
+                    <td><input type="radio" name="Python" id="derece" value="7">&nbsp;7</td>
+                    <td><input type="radio" name="Python" id="derece" value="8">&nbsp;8</td>
+                    <td><input type="radio" name="Python" id="derece" value="9">&nbsp;9</td>
+                    <td><input type="radio" name="Python" id="derece" value="10">&nbsp;10</td
+              </tr>
+                      <tr>
+                    <th><p>Java</p></th> 
+                    <td><input type="radio" name="Java" id="derece" value="1">&nbsp;1</td>
+                    <td><input type="radio" name="Java" id="derece" value="2">&nbsp;2</td>
+                    <td><input type="radio" name="Java" id="derece" value="3">&nbsp;3</td>
+                    <td><input type="radio" name="Java" id="derece" value="4">&nbsp;4</td>
+                    <td><input type="radio" name="Java" id="derece" value="5">&nbsp;5</td>
+                    <td><input type="radio" name="Java" id="derece" value="6">&nbsp;6</td>
+                    <td><input type="radio" name="Java" id="derece" value="7">&nbsp;7</td>
+                    <td><input type="radio" name="Java" id="derece" value="8">&nbsp;8</td>
+                    <td><input type="radio" name="Java" id="derece" value="9">&nbsp;9</td>
+                    <td><input type="radio" name="Java" id="derece" value="10">&nbsp;10</td
+              </tr>
+                      <tr>
+                    <th><p>Html</p></th> 
+                    <td><input type="radio" name="Html" id="derece" value="1">&nbsp;1</td>
+                    <td><input type="radio" name="Html" id="derece" value="2">&nbsp;2</td>
+                    <td><input type="radio" name="Html" id="derece" value="3">&nbsp;3</td>
+                    <td><input type="radio" name="Html" id="derece" value="4">&nbsp;4</td>
+                    <td><input type="radio" name="Html" id="derece" value="5">&nbsp;5</td>
+                    <td><input type="radio" name="Html" id="derece" value="6">&nbsp;6</td>
+                    <td><input type="radio" name="Html" id="derece" value="7">&nbsp;7</td>
+                    <td><input type="radio" name="Html" id="derece" value="8">&nbsp;8</td>
+                    <td><input type="radio" name="Html" id="derece" value="9">&nbsp;9</td>
+                    <td><input type="radio" name="Html" id="derece" value="10">&nbsp;10</td
+              </tr>
+                      <tr>
+                    <th><p>Ruby</p></th> 
+                    <td><input type="radio" name="Ruby" id="derece" value="1">&nbsp;1</td>
+                    <td><input type="radio" name="Ruby" id="derece" value="2">&nbsp;2</td>
+                    <td><input type="radio" name="Ruby" id="derece" value="3">&nbsp;3</td>
+                    <td><input type="radio" name="Ruby" id="derece" value="4">&nbsp;4</td>
+                    <td><input type="radio" name="Ruby" id="derece" value="5">&nbsp;5</td>
+                    <td><input type="radio" name="Ruby" id="derece" value="6">&nbsp;6</td>
+                    <td><input type="radio" name="Ruby" id="derece" value="7">&nbsp;7</td>
+                    <td><input type="radio" name="Ruby" id="derece" value="8">&nbsp;8</td>
+                    <td><input type="radio" name="Ruby" id="derece" value="9">&nbsp;9</td>
+                    <td><input type="radio" name="Ruby" id="derece" value="10">&nbsp;10</td
+              </tr>
+                      <tr>
+                    <th><p>C</p></th> 
+                    <td><input type="radio" name="C" id="derece" value="1">&nbsp;1</td>
+                    <td><input type="radio" name="C" id="derece" value="2">&nbsp;2</td>
+                    <td><input type="radio" name="C" id="derece" value="3">&nbsp;3</td>
+                    <td><input type="radio" name="C" id="derece" value="4">&nbsp;4</td>
+                    <td><input type="radio" name="C" id="derece" value="5">&nbsp;5</td>
+                    <td><input type="radio" name="C" id="derece" value="6">&nbsp;6</td>
+                    <td><input type="radio" name="C" id="derece" value="7">&nbsp;7</td>
+                    <td><input type="radio" name="C" id="derece" value="8">&nbsp;8</td>
+                    <td><input type="radio" name="C" id="derece" value="9">&nbsp;9</td>
+                    <td><input type="radio" name="C" id="derece" value="10">&nbsp;10</td
+              </tr>
+                      <tr>
+                    <th><p>Matlab</p></th> 
+                    <td><input type="radio" name="Matlab" id="derece" value="1">&nbsp;1</td>
+                    <td><input type="radio" name="Matlab" id="derece" value="2">&nbsp;2</td>
+                    <td><input type="radio" name="Matlab" id="derece" value="3">&nbsp;3</td>
+                    <td><input type="radio" name="Matlab" id="derece" value="4">&nbsp;4</td>
+                    <td><input type="radio" name="Matlab" id="derece" value="5">&nbsp;5</td>
+                    <td><input type="radio" name="Matlab" id="derece" value="6">&nbsp;6</td>
+                    <td><input type="radio" name="Matlab" id="derece" value="7">&nbsp;7</td>
+                    <td><input type="radio" name="Matlab" id="derece" value="8">&nbsp;8</td>
+                    <td><input type="radio" name="Matlab" id="derece" value="9">&nbsp;9</td>
+                    <td><input type="radio" name="Matlab" id="derece" value="10">&nbsp;10</td
+              </tr>
+                      <tr>
+                    <th><p>PHP</p></th> 
+                    <td><input type="radio" name="PHP" id="derece" value="1">&nbsp;1</td>
+                    <td><input type="radio" name="PHP" id="derece" value="2">&nbsp;2</td>
+                    <td><input type="radio" name="PHP" id="derece" value="3">&nbsp;3</td>
+                    <td><input type="radio" name="PHP" id="derece" value="4">&nbsp;4</td>
+                    <td><input type="radio" name="PHP" id="derece" value="5">&nbsp;5</td>
+                    <td><input type="radio" name="PHP" id="derece" value="6">&nbsp;6</td>
+                    <td><input type="radio" name="PHP" id="derece" value="7">&nbsp;7</td>
+                    <td><input type="radio" name="PHP" id="derece" value="8">&nbsp;8</td>
+                    <td><input type="radio" name="PHP" id="derece" value="9">&nbsp;9</td>
+                    <td><input type="radio" name="PHP" id="derece" value="10">&nbsp;10</td
+              </tr>
+                      <tr>
+                    <th><p>Visual Basic</p></th> 
+                    <td><input type="radio" name="Visual Basic" id="derece" value="1">&nbsp;1</td>
+                    <td><input type="radio" name="Visual Basic" id="derece" value="2">&nbsp;2</td>
+                    <td><input type="radio" name="Visual Basic" id="derece" value="3">&nbsp;3</td>
+                    <td><input type="radio" name="Visual Basic" id="derece" value="4">&nbsp;4</td>
+                    <td><input type="radio" name="Visual Basic" id="derece" value="5">&nbsp;5</td>
+                    <td><input type="radio" name="Visual Basic" id="derece" value="6">&nbsp;6</td>
+                    <td><input type="radio" name="Visual Basic" id="derece" value="7">&nbsp;7</td>
+                    <td><input type="radio" name="Visual Basic" id="derece" value="8">&nbsp;8</td>
+                    <td><input type="radio" name="Visual Basic" id="derece" value="9">&nbsp;9</td>
+                    <td><input type="radio" name="Visual Basic" id="derece" value="10">&nbsp;10</td
+              </tr>
+                      <tr>
+                    <th><p>R</p></th> 
+                    <td><input type="radio" name="R" id="derece" value="1">&nbsp;1</td>
+                    <td><input type="radio" name="R" id="derece" value="2">&nbsp;2</td>
+                    <td><input type="radio" name="R" id="derece" value="3">&nbsp;3</td>
+                    <td><input type="radio" name="R" id="derece" value="4">&nbsp;4</td>
+                    <td><input type="radio" name="R" id="derece" value="5">&nbsp;5</td>
+                    <td><input type="radio" name="R" id="derece" value="6">&nbsp;6</td>
+                    <td><input type="radio" name="R" id="derece" value="7">&nbsp;7</td>
+                    <td><input type="radio" name="R" id="derece" value="8">&nbsp;8</td>
+                    <td><input type="radio" name="R" id="derece" value="9">&nbsp;9</td>
+                    <td><input type="radio" name="R" id="derece" value="10">&nbsp;10</td
+              </tr>
+                     
+              </table>
+          </div>
+        </div>
+                       <div id="gorusleriniz">
+          <fieldset><legend>Programlama Dilleri Hakkındaki Görüşlerinizi Yazabilirsiniz:</legend>
+            <label for="about_yourself"></label>
+            <textarea name="about_yourself" id="about_yourself" cols="70" rows="10">
+          </textarea>
+            </fieldset>
+        </div>
+          <div>
+            <fieldset><legend>Anketi Onayla</legend>
+            <input type="submit" value="Gönder" />
+            <input type="reset" value="Temizle" />            
+            </fieldset>
+          </div>            
+      </form>
+         <a href="#yasadiginizIl">Başa Dön</a>
+   </div>
+  </body>
+</html>

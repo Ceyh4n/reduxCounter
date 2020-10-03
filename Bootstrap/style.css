@@ -1,0 +1,23 @@
+body {
+    background-color: cadetblue;
+}
+
+.container{
+    border: solid 5px rgb(20, 2, 85);
+    color: lightskyblue;
+    background-color: mediumaquamarine;
+}
+
+.row {
+    border: solid 3px rgb(17, 168, 255);
+    background-color: mediumorchid;
+
+}
+.container-fluid {
+
+}
+
+[class*="col"] {
+    border: solid 3px rgb(17, 168, 255);
+    background-color: rgb(0, 0, 0);
+}

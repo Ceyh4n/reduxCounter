@@ -1,0 +1,62 @@
+body{
+  font-family: Montserrat, sans-serif;
+}
+
+* {
+ box-sizing: border-box;
+}
+
+.wrapper{
+ padding:60px 15px 0px;
+ border: 1px solid rgb(96, 128, 233);
+ width: 500px;
+ margin: 100px auto;
+ 
+}
+.relative{
+  position:relative;
+}
+.avatar{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  top:0;
+  left:50%;
+  transform:translate(-50%,-50%);
+  overflow:hidden;
+}
+
+.client-name{
+  display:block;
+  margin:15px 0px 5px;
+  text-transform:uppercase;
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.star-rating{
+  text-align: center;
+  font-size:20px;
+  color: yellow;
+
+
+}
+
+.testimonial-content{
+  line-height: 1.5;
+  font-size: 18px;
+  padding: 10px 0px;
+  text-align:justify;
+}
+
+@media (max-width:576px){
+  .wrapper{
+  
+  width:100%;
+}
+  .testimonial-content{
+    
+  }
+}

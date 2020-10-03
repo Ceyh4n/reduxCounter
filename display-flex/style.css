@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.child {
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    border: solid 4px green;
+    padding: 20px;
+}
+
+.centre {
+    height: 300px;
+    flex-shrink: 5;
+    flex-grow: 0;
+}
+
+.left {
+    flex-shrink: 0;
+    flex-grow: 3;
+}
+
+.right {
+    flex-shrink: 0;
+    flex-grow: 3;
+}
